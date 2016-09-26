@@ -87,3 +87,4 @@ void loop() {
   lastButtonState = reading;
 }
 
+//Link to video - http://podia270.tumblr.com/post/150937780110/arduino-homework
