@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>portfolio_site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="header">
+      <div class="logo">
+			    <h1>Sunny</h1>
+		  </div>
+      <div class="navbar">
+			<nav>
+				<ul>
+					<li><a href="index.html" class="selected">Home</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+    </div>
+    
+    <div class="cover-photo">
+			<img src="img/cover-img1.png" class="img-size">
+		</div>
+
+      <div id="screen">
+        <h2 class="gap1">Industrial Designer</h2> 
+        <h2 class="gap2">Graphic Designer</h2>
+        <h2 class="gap3">Web Designer</h2>
+        <h2 class="gap4">UI/UX Designer</h2>
+        <h2 class="gap5">DT Student</h2>  
+      </div>
+
+        <script>
+          jQuery(document).ready(function(){ 
+          $(function(){
+              $('#screen h2:gt(0)').hide();
+              setInterval(function(){
+                $('#screen :first-child').fadeOut(4000)
+                   .next('h2').delay(800).fadeIn(4000)
+                   .end().appendTo('#screen');}, 
+                4000);
+              });
+          });
+        </script>
+    
+    </div>
+
+
+
+  </body>
+</html>
