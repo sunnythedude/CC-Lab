@@ -1,0 +1,9 @@
+﻿  Calibration.cpp
+  Flow.cpp
+  Kalman.cpp
+  ObjectFinder.cpp
+  main.cpp
+C:\Users\user\Documents\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\include\ofxCv/Flow.h(3): fatal error C1083: Cannot open include file: 'ofxCv.h': No such file or directory (compiling source file ..\..\..\..\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\src\Flow.cpp)
+C:\Users\user\Documents\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\include\ofxCv/Calibration.h(22): fatal error C1083: Cannot open include file: 'ofxCv.h': No such file or directory (compiling source file ..\..\..\..\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\src\Calibration.cpp)
+C:\Users\user\Documents\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\include\ofxCv/Kalman.h(3): fatal error C1083: Cannot open include file: 'ofxCv.h': No such file or directory (compiling source file ..\..\..\..\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\src\Kalman.cpp)
+C:\Users\user\Documents\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\include\ofxCv/ObjectFinder.h(26): fatal error C1083: Cannot open include file: 'ofxCv.h': No such file or directory (compiling source file ..\..\..\..\of_v0.9.3_vs_release\addons\ofxOpenCv\libs\opencv\src\ObjectFinder.cpp)
